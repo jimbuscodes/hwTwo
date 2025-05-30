@@ -1,0 +1,27 @@
+.quote {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    width: 790px;
+    height: 90px;
+
+    .quote-text {
+      font-size: 15px;
+      color: #ffd140;
+    }
+
+    .author {
+      font-size: 15px;
+      color: #ee4367;
+      margin-bottom: 0;
+    }
+
+    .title {
+      font-size: 10px;
+      color: #a8a8a8;
+    }
+  }
+}
