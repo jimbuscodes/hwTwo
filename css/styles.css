@@ -159,3 +159,35 @@ nav .links span {
   font-size: 10px;
   color: #a8a8a8;
 }
+
+.upcoming-events {
+  height: 320px;
+  background-color: #540d6e;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 40px;
+}
+.upcoming-events .title {
+  margin-top: -30px;
+  width: 392px;
+  height: 35px;
+  color: #fff;
+  border-bottom: solid 2px #fff;
+  padding-bottom: 50px;
+}
+.upcoming-events .title h1 {
+  font-size: 25px;
+}
+.upcoming-events .events {
+  height: 124px;
+  margin-top: -100px;
+  background-color: aqua;
+}
