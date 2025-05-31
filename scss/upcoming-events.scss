@@ -15,8 +15,9 @@
     border-bottom: solid 2px #fff;
     padding-bottom: 50px;
 
-    h1 {
+    .title-text {
       font-size: 25px;
+      font-family: gillsans-reg;
     }
   }
 
@@ -42,14 +43,16 @@
         justify-content: center;
 
         span {
-          margin-top: 5px;
+          margin-top: 10px;
           font-size: 22px;
+          font-family: gillsans-bold;
         }
 
         .date {
-          margin-top: -5px;
+          margin-top: -9px;
           margin-bottom: -5px;
           font-size: 12px;
+          font-family: gillsans-light;
         }
       }
 
@@ -58,11 +61,13 @@
 
         .highlight {
           font-size: 15px;
+          font-family: gillsans-reg;
           color: #fff;
         }
 
         .details {
           font-size: 13px;
+          font-family: gillsans-reg;
           color: #ee4367;
         }
       }

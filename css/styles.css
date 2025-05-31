@@ -20,6 +20,30 @@ p {
   margin-bottom: 16px;
 }
 
+@font-face {
+  font-family: gillsans-reg;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans.otf);
+}
+@font-face {
+  font-family: gillsans-bold;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: gillsans-light;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Light.otf);
+}
+@font-face {
+  font-family: gillsans-italic;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: gillsans-semibold-italic;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Medium\ Italic.otf);
+}
+@font-face {
+  font-family: ptserif-reg;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
 nav {
   width: 980px;
   height: 90px;
@@ -47,8 +71,11 @@ nav .logo {
 }
 nav .logo span {
   position: absolute;
-  bottom: -5px;
+  left: -2px;
+  bottom: -9px;
   color: #fff;
+  font-size: 20px;
+  font-family: gillsans-reg;
 }
 nav .links {
   width: 320px;
@@ -61,6 +88,8 @@ nav .links {
 nav .links a {
   text-decoration: none;
   color: #fff;
+  font-size: 15px;
+  font-family: gillsans-reg;
 }
 nav .links span {
   color: #ee4367;
@@ -84,7 +113,7 @@ nav .links span {
           justify-content: center;
 }
 .hero .centered-content {
-  width: 300px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,18 +128,22 @@ nav .links span {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-}
-.hero .centered-content h1 {
-  font-size: 40px;
   color: #fff;
 }
-.hero .centered-content h2 {
+.hero .centered-content .heading {
+  color: #fff;
+  font-size: 40px;
+  font-family: ptserif-reg;
+}
+.hero .centered-content .heading2 {
   font-size: 20px;
   color: #ee4367;
+  font-family: gillsans-italic;
 }
 .hero .centered-content p {
   font-size: 20px;
   color: #fff;
+  font-family: gillsans-italic;
 }
 .hero .centered-content .read-more {
   width: 122px;
@@ -128,6 +161,9 @@ nav .links span {
 }
 .hero .centered-content .read-more span {
   color: #fff;
+  font-size: 15px;
+  font-family: gillsans-reg;
+  margin-top: 4px;
 }
 
 .quote {
@@ -148,15 +184,18 @@ nav .links span {
 }
 .quote .content .quote-text {
   font-size: 15px;
+  font-family: gillsans-semibold-italic;
   color: #ffd140;
 }
 .quote .content .author {
   font-size: 15px;
+  font-family: ptserif-reg;
   color: #ee4367;
   margin-bottom: 0;
 }
 .quote .content .title {
   font-size: 10px;
+  font-family: ptserif-reg;
   color: #a8a8a8;
 }
 
@@ -183,8 +222,9 @@ nav .links span {
   border-bottom: solid 2px #fff;
   padding-bottom: 50px;
 }
-.upcoming-events .title h1 {
+.upcoming-events .title .title-text {
   font-size: 25px;
+  font-family: gillsans-reg;
 }
 .upcoming-events .events {
   height: 124px;
@@ -224,23 +264,27 @@ nav .links span {
           justify-content: center;
 }
 .upcoming-events .events .event .date span {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 22px;
+  font-family: gillsans-bold;
 }
 .upcoming-events .events .event .date .date {
-  margin-top: -5px;
+  margin-top: -9px;
   margin-bottom: -5px;
   font-size: 12px;
+  font-family: gillsans-light;
 }
 .upcoming-events .events .event .event-detail {
   width: 140px;
 }
 .upcoming-events .events .event .event-detail .highlight {
   font-size: 15px;
+  font-family: gillsans-reg;
   color: #fff;
 }
 .upcoming-events .events .event .event-detail .details {
   font-size: 13px;
+  font-family: gillsans-reg;
   color: #ee4367;
 }
 
@@ -269,8 +313,11 @@ footer .logo {
 }
 footer .logo span {
   position: absolute;
-  bottom: -5px;
+  left: -2px;
+  bottom: -9px;
   color: #fff;
+  font-size: 20px;
+  font-family: gillsans-reg;
 }
 footer .contact-info {
   display: -webkit-box;
@@ -289,12 +336,15 @@ footer .contact-info {
 }
 footer .contact-info .address {
   font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .contact-info .phone {
   font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .contact-info .email {
   font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup {
   height: 60px;
@@ -307,28 +357,39 @@ footer .signup input {
   width: 529px;
   background-color: #f56b88;
   border: none;
-  color: rgb(238, 67, 103);
+  color: #fc9eb2;
   font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup ::-webkit-input-placeholder {
-  color: rgb(238, 67, 103);
+  color: #fc9eb2;
   opacity: 1;
+  font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup ::-moz-placeholder {
-  color: rgb(238, 67, 103);
+  color: #fc9eb2;
   opacity: 1;
+  font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup :-ms-input-placeholder {
-  color: rgb(238, 67, 103);
+  color: #fc9eb2;
   opacity: 1;
+  font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup ::-ms-input-placeholder {
-  color: rgb(238, 67, 103);
+  color: #fc9eb2;
   opacity: 1;
+  font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup ::placeholder {
-  color: rgb(238, 67, 103);
+  color: #fc9eb2;
   opacity: 1;
+  font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .signup .button {
   height: 100%;
@@ -344,8 +405,12 @@ footer .signup .button {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: #fff;
+}
+footer .signup .button span {
+  margin-top: 5px;
   color: #ee4367;
   font-size: 16px;
+  font-family: gillsans-reg;
 }
 footer .socials {
   width: 150px;
@@ -357,6 +422,7 @@ footer .socials {
           justify-content: space-between;
 }
 footer .copyright {
-  color: #f56b88;
+  color: #fc9eb2;
   font-size: 12px;
+  font-family: gillsans-reg;
 }

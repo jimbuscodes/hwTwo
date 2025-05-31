@@ -14,8 +14,11 @@ footer {
 
     span {
       position: absolute;
-      bottom: -5px;
+      left: -2px;
+      bottom: -9px;
       color: #fff;
+      font-size: 20px;
+      font-family: gillsans-reg;
     }
   }
 
@@ -28,14 +31,17 @@ footer {
 
     .address {
       font-size: 16px;
+      font-family: gillsans-reg;
     }
 
     .phone {
       font-size: 16px;
+      font-family: gillsans-reg;
     }
 
     .email {
       font-size: 16px;
+      font-family: gillsans-reg;
     }
   }
 
@@ -48,13 +54,16 @@ footer {
       width: 529px;
       background-color: #f56b88;
       border: none;
-      color: rgba(238, 67, 103, 1);
+      color: #fc9eb2;
       font-size: 16px;
+      font-family: gillsans-reg;
     }
 
     ::placeholder {
-      color: rgba(238, 67, 103, 1);
+      color: #fc9eb2;
       opacity: 1;
+      font-size: 16px;
+      font-family: gillsans-reg;
     }
 
     .button {
@@ -65,8 +74,13 @@ footer {
       flex-direction: column;
       justify-content: space-around;
       background-color: #fff;
-      color: #ee4367;
-      font-size: 16px;
+
+      span {
+        margin-top: 5px;
+        color: #ee4367;
+        font-size: 16px;
+        font-family: gillsans-reg;
+      }
     }
   }
 
@@ -77,7 +91,8 @@ footer {
   }
 
   .copyright {
-    color: #f56b88;
+    color: #fc9eb2;
     font-size: 12px;
+    font-family: gillsans-reg;
   }
 }

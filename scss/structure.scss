@@ -16,3 +16,33 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+@font-face {
+  font-family: gillsans-reg;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans.otf);
+}
+
+@font-face {
+  font-family: gillsans-bold;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Bold.otf);
+}
+
+@font-face {
+  font-family: gillsans-light;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Light.otf);
+}
+
+@font-face {
+  font-family: gillsans-italic;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Italic.otf);
+}
+
+@font-face {
+  font-family: gillsans-semibold-italic;
+  src: url(fonts/Gill-Sans-Font-Family/Gill\ Sans\ Medium\ Italic.otf);
+}
+
+@font-face {
+  font-family: ptserif-reg;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
