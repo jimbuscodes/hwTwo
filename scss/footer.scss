@@ -1,0 +1,83 @@
+footer {
+  height: 455px;
+  background-color: #ee4367;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .logo {
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border: solid 2px #fff;
+
+    span {
+      position: absolute;
+      bottom: -5px;
+      color: #fff;
+    }
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+
+    .address {
+      font-size: 16px;
+    }
+
+    .phone {
+      font-size: 16px;
+    }
+
+    .email {
+      font-size: 16px;
+    }
+  }
+
+  .signup {
+    height: 60px;
+    display: flex;
+
+    input {
+      height: 100%;
+      width: 529px;
+      background-color: #f56b88;
+      border: none;
+      color: rgba(238, 67, 103, 1);
+      font-size: 16px;
+    }
+
+    ::placeholder {
+      color: rgba(238, 67, 103, 1);
+      opacity: 1;
+    }
+
+    .button {
+      height: 100%;
+      width: 167px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      background-color: #fff;
+      color: #ee4367;
+      font-size: 16px;
+    }
+  }
+
+  .socials {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    color: #f56b88;
+    font-size: 12px;
+  }
+}

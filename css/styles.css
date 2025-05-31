@@ -243,3 +243,120 @@ nav .links span {
   font-size: 13px;
   color: #ee4367;
 }
+
+footer {
+  height: 455px;
+  background-color: #ee4367;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .logo {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #fff;
+}
+footer .logo span {
+  position: absolute;
+  bottom: -5px;
+  color: #fff;
+}
+footer .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #fff;
+}
+footer .contact-info .address {
+  font-size: 16px;
+}
+footer .contact-info .phone {
+  font-size: 16px;
+}
+footer .contact-info .email {
+  font-size: 16px;
+}
+footer .signup {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .signup input {
+  height: 100%;
+  width: 529px;
+  background-color: #f56b88;
+  border: none;
+  color: rgb(238, 67, 103);
+  font-size: 16px;
+}
+footer .signup ::-webkit-input-placeholder {
+  color: rgb(238, 67, 103);
+  opacity: 1;
+}
+footer .signup ::-moz-placeholder {
+  color: rgb(238, 67, 103);
+  opacity: 1;
+}
+footer .signup :-ms-input-placeholder {
+  color: rgb(238, 67, 103);
+  opacity: 1;
+}
+footer .signup ::-ms-input-placeholder {
+  color: rgb(238, 67, 103);
+  opacity: 1;
+}
+footer .signup ::placeholder {
+  color: rgb(238, 67, 103);
+  opacity: 1;
+}
+footer .signup .button {
+  height: 100%;
+  width: 167px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fff;
+  color: #ee4367;
+  font-size: 16px;
+}
+footer .socials {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .copyright {
+  color: #f56b88;
+  font-size: 12px;
+}
