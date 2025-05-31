@@ -189,5 +189,57 @@ nav .links span {
 .upcoming-events .events {
   height: 124px;
   margin-top: -100px;
-  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.upcoming-events .events .event {
+  width: 210px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.upcoming-events .events .event .date {
+  width: 60px;
+  height: 60px;
+  background-color: #ee4367;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.upcoming-events .events .event .date span {
+  margin-top: 5px;
+  font-size: 22px;
+}
+.upcoming-events .events .event .date .date {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-size: 12px;
+}
+.upcoming-events .events .event .event-detail {
+  width: 140px;
+}
+.upcoming-events .events .event .event-detail .highlight {
+  font-size: 15px;
+  color: #fff;
+}
+.upcoming-events .events .event .event-detail .details {
+  font-size: 13px;
+  color: #ee4367;
 }

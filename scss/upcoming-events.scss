@@ -23,6 +23,49 @@
   .events {
     height: 124px;
     margin-top: -100px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+
+    .event {
+      width: 210px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .date {
+        width: 60px;
+        height: 60px;
+        background-color: #ee4367;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          margin-top: 5px;
+          font-size: 22px;
+        }
+
+        .date {
+          margin-top: -5px;
+          margin-bottom: -5px;
+          font-size: 12px;
+        }
+      }
+
+      .event-detail {
+        width: 140px;
+
+        .highlight {
+          font-size: 15px;
+          color: #fff;
+        }
+
+        .details {
+          font-size: 13px;
+          color: #ee4367;
+        }
+      }
+    }
   }
 }
